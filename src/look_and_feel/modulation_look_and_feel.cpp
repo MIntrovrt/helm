@@ -40,9 +40,9 @@ void ModulationLookAndFeel::drawLinearSlider(Graphics& g, int x, int y, int widt
   float mod_percentage = slider.getValue() / destination_range;
 
   if (mod_percentage == 0.0) {
-    g.setColour(Colour(0x11b9f6ca));
+    g.setColour(Colour(0x11d4ff00));
     g.fillRect(0, 0, slider.getWidth(), slider.getHeight());
-    g.setColour(Colour(0xffb9f6ca));
+    g.setColour(Colour(0xffd4ff00));
     g.drawRect(0, 0, slider.getWidth(), slider.getHeight(), 1);
   }
   else {

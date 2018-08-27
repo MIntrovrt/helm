@@ -35,7 +35,7 @@ void BrowserLookAndFeel::drawToggleButton(Graphics& g, ToggleButton& button,
   static const float max_text_height = 16.0f;
 
   if (button.getToggleState())
-    g.setColour(Colour(0xffffab00));
+    g.setColour(Colour(0xffd4ff00));
   else
     g.setColour(Colour(0xff313131));
   g.fillRect(button.getLocalBounds());

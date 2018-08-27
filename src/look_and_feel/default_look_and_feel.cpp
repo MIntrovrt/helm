@@ -52,8 +52,8 @@ void DefaultLookAndFeel::drawLinearSlider(Graphics& g, int x, int y, int width, 
   Colour thumb_color(0xffffffff);
 
   if (!active) {
-    slider_color = Colour(0xff424242);
-    thumb_color = Colour(0xff888888);
+    slider_color = Colour(0xff303030);
+    thumb_color = Colour(0xff303030);
     lighten_color = Colour(0x22ffffff);
   }
 
